@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    height: 44px;
+}
+
+.navbar{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.songBar{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+
+.play img{
+    cursor: pointer;
+}
+
+.logo1{
+    height: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
+
+
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 23px;
+}
+
+.list{
+    background: url("img/background.jpg") center no-repeat;
+    width: 70vw;
+    height: 70vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 22px;
+
+}
+#bar{
+    cursor: pointer;
+}
+.colour{
+    color: aquamarine;
+    border-color: aquamarine;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 8px;
+    
+}
+
+.time span{
+    padding: 25px;
+
+}
+
+.time .img{
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 16vw;
+}
+
+.timeStamp{
+    /* margin-left: 40px; */
+    position: absolute;
+    right: 55vw;
+}
+
+.timeStamp img{
+    height: 23px;
+    padding-left: 4px;
+    cursor: pointer;
+
+}
+
+.songinfo{
+    position: absolute;
+    left: 8vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
